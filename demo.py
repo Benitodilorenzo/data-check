@@ -3,6 +3,7 @@
 
 
 def circle_area(radius):
+    """A function to calculate the area of circle."""
     if radius <= 0:
         return False
 
