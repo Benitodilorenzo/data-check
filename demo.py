@@ -3,5 +3,8 @@
 
 
 def circle_area(radius):
-    """Returns the area of the circle of given radius"""
-    pass  # YOUR CODE HERE
+    if radius <= 0:
+        return False
+    else:
+        result = (radius**2) * 3.14
+    return result
